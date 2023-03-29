@@ -9,7 +9,7 @@ header{
     background-position: center;
     height: 100px;
     position: relative;
-    background-color:violet
+    background-color:rgb(133, 119, 133)
 }
 #h2{
     color: rgb(13, 33, 107);
@@ -34,4 +34,14 @@ nav li {
     text-decoration: none;
     
 }
+.footer {  
+    position: fixed;  
+    left: 10px;  
+    bottom: 5px;  
+    right: 10px;   
+    width: 95%;  
+    background-color: rgb(121, 109, 121);  
+    color: white;  
+    text-align: center;  
+    }  
 
