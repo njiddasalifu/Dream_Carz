@@ -35,30 +35,35 @@ nav li {
     text-decoration: none;
     
 }
-.footer {  
-    position: fixed;  
-    left: 10px;  
-    bottom: 5px;  
-    right: 10px;   
-    width: 95%;  
-    background-color: rgb(15, 61, 141);  
-    color: white;  
-    text-align: center;  
-    }  
-    .weblink{
-        color: darkred;
+.header a{
+    float: right;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.header a:hover{
+    background-color: white;
+    color: black;
+}
+.header a:active{
+    color: red;
+}
+.weblink{
+        color: violet;
     }
 a {
     color: #fff;
 }
 .container{
     padding: 20px;
+    
 }
 .form {
     padding-left: 20px;
     padding-right: 20px;
 }
-#h2{
-    color: lightgreen;
+#h22{
+    color: black;
+    
 }
 
