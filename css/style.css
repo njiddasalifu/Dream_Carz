@@ -76,6 +76,10 @@ html{
     top: 99%; left: 0;right: 0;
     background: white;
     border-top: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+.header .navbar.active{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 .header .navbar a{
     display: block;
@@ -87,6 +91,10 @@ html{
     color: lightslategray;
     cursor: pointer;
     font-size: 2.5rem;
+    display: block;
+}
+#menu-btn.fa-times{
+    transform: rotate(180deg);
 }
 
 
