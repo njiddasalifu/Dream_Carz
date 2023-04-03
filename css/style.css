@@ -14,12 +14,95 @@ html{
     scroll-behavior: smooth;
 }
 
+.btn{
+    display: inline-block;
+    margin: 1rem;
+    border-radius: 1rem;
+    background: lightblue;
+    font-weight: 500;
+    font-size: 1.7rem;
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+
+}
+.btn:hover{
+    color: yellow;
+}
+
 .header{
     position: fixed;
     top: 0; left: 0; right: 0; z-index: 999;
-    background: white;
+    background: lightblue;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 7rem 9%;
+    padding: 3rem 9%;
+}
+.header .logo{
+    background: lightblue;
+    font-size: 2.5rem;
+    color: black;
+    font-weight: bolder;
+}
+.header .logo span{
+    color: yellow;
+}
+
+.header .navbar a{
+    font-size: 1.7rem;
+    margin: 0 1rem;
+    color: black;
+}
+
+.header .navbar a:hover{
+    color: yellow;
+}
+
+.header .btn{
+    margin-top: 0;
+}
+.header #login-btn i{
+    font-size: 1.8rem;
+    color: lightslategray;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+@media(max-width:991){
+    html{
+        font-size: 55%;
+    }
+    .header{
+        padding: 2rem;
+    }
+}
+@media(max-width:450px){
+    html{
+        font-size: 50%;
+    }
 }
