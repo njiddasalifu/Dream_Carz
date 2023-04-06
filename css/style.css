@@ -128,8 +128,18 @@ html{
     background: lightblue;
     border: black;
     text-align: center;
+    width: 40rem;
 }
-
+.login-form-container form .buttons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.login-form-container form .buttons .btn{
+    display: block;
+    width: 100%;
+    margin: .5rem 0%;   
+}
 
 
 
