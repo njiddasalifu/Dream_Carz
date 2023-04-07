@@ -26,8 +26,8 @@ html{
     font-weight: 500;
     font-size: 1.7rem;
     cursor: pointer;
-    padding: 10px;
-    text-decoration: none;
+    padding: .8rem 3rem;
+    
 
 }
 .btn:hover{
@@ -41,7 +41,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px;
+    padding: 3re 9%;
 }
 .header .logo{
     background: lightblue;
@@ -55,7 +55,7 @@ html{
 
 .header .navbar a{
     font-size: 1.7rem;
-    margin: 0 1rem;
+    margin: 0 16px;
     color: black;
 }
 
@@ -70,6 +70,7 @@ html{
     font-size: 1.8rem;
     color: lightslategray;
     cursor: pointer;
+    display: none;
    
 }
 .header #login-btn .btn{
@@ -162,13 +163,19 @@ html{
 
 
 /* media queries */
-@media(max-width:991){
+@media(max-width:991px){
     html{
         font-size: 55%;
     }
     .header{
-        padding: 2rem;
+        padding: 3rem;
     }
+}
+@media(max-width:768px) {
+    .header #login-btn i{
+        display: block;
+    }
+    
 }
 @media(max-width:450px){
     html{
