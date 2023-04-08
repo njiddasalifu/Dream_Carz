@@ -172,8 +172,27 @@ html{
     }
 }
 @media(max-width:768px) {
+    #menu-btn{
+        display: block;
+    }
     .header #login-btn i{
         display: block;
+    }
+    .header #login-btn .btn{
+        display: none;
+    }
+    .header .navbar{
+        position: absolute;
+        top: 99%; left: 0; right: 0;
+        background: white;
+        border-top: 5px;
+
+    }
+    .header .navbar a{
+        display: block;
+        margin: 2rem;
+        font-size: 2rem;
+        
     }
     
 }
