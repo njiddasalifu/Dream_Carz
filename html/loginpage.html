@@ -1,23 +1,40 @@
-<!DOCTYPE html>   
-<html>   
-<head>  
-<meta name="viewport" content="width=device-width, initial-scale=1"> 
-<link rel="stylesheet" href="/css/login.css"> 
-<title> Login Page </title>  
+    <!DOCTYPE html>   
+    <html>   
+    <head>  
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="/css/login.css"> 
+    <title> Login Page </title>  
     </head>    
-    <body>    
-      <h1><i><b>Login Here.</b></i></h1>  
-        <form>  
-            <div class="container">   
-                <label>Username : </label>   
-                <input type="text" placeholder="Enter Username" name="username" required>  
-                <label>Password : </label>   
-                <input type="password" placeholder="Enter Password" name="password" required>  
-                <button type="submit">Login</button>   
-                <input type="checkbox" checked="checked"> Remember me   
-                <button type="button" class="cancelbtn"> Cancel</button>   
-                Forgot <a href="#"> password? </a>   
-            </div>   
-        </form>     
+    <body>   
+    <header class="header">
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>Dream</span>carz </a>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="loginpage.html">Login</a>
+        </nav>
+        <div id="login-btn">
+            <button class="btn">login</button>
+            <i class="far fa-user"></i>
+        </div>
+    </header> 
+    <br><br><br>
+    <form>  
+    <h1><i><b>Login Here.</b></i></h1>  
+
+    <div class="container">   
+    <label>Username : </label>   
+    <input type="text" placeholder="Enter Username" name="username" required>  
+    <label>Password : </label>   
+    <input type="password" placeholder="Enter Password" name="password" required>  
+    <button type="submit">Login</button>   
+    <input type="checkbox" checked="checked"> Remember me   
+    <button type="button" class="cancelbtn"> Cancel</button>   
+    Forgot <a href="#"> password? </a>   
+    </div>   
+    </form>     
     </body>     
     </html>  
