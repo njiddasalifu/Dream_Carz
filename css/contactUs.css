@@ -6,15 +6,7 @@
 html {
     scroll-behaviour: smooth;
 }
- .header{
-    position: fixed;
-    top: 0; left: 0; right: 0; z-index: 999;
-    background: lightblue;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 3re 9%;
- }
+ 
 :root {
     --navbar-height: 59px;
 }
