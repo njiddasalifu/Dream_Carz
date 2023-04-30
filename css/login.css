@@ -61,6 +61,9 @@ button:hover {
     margin: 0 16px;
     color: black;
 }
+.header .navbar:hover{
+    color: blue;
+}
 
 .header .navbar a:hover{
     color: yellow;
